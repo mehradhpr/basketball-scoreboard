@@ -1,21 +1,34 @@
 body {
   background-color: #1b244a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   color: #eeeeee;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 410px;
+  height: 248px;
 }
 
 .section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 248px;
+  width: 155px;
+  padding: 0;
+  margin: 0;
 }
 
 .button-container {
