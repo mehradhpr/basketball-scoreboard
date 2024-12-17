@@ -1,0 +1,14 @@
+body {
+  background-color: #1b244a;
+}
+
+h1 {
+  color: #eeeeee;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
