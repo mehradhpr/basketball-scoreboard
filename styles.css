@@ -10,7 +10,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 400px;
+  height: 350px;
 }
 
 h1 {
@@ -38,6 +38,7 @@ button {
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 410px;
   height: 248px;
 }
@@ -81,6 +82,12 @@ button {
   background-color: #080001;
   width: fit-content;
   font-size: 25;
+  padding-inline: 20px;
+}
+
+.category {
+  font-family: cursed;
+  color: #9aabd8;
 }
 
 @font-face {

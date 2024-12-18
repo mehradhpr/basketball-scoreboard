@@ -15,7 +15,7 @@ function increment(id) {
     console.error("Error in the increment function")
   }
 
-  // updating the leader
+  // update the leader
   if (homeCount == 0 && guestCount == 0) {
     document.getElementById("h-section").style.borderColor = "transparent"
     document.getElementById("g-section").style.borderColor = "transparent"
@@ -37,7 +37,6 @@ function newGame() {
   guestCount = 0;
   document.getElementById("home-digit").textContent = 0
   document.getElementById("guest-digit").textContent = 0
-
   document.getElementById("h-section").style.borderColor = "transparent"
   document.getElementById("g-section").style.borderColor = "transparent"
 }
